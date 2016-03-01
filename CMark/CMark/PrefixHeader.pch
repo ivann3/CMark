@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  CMark
+//
+//  Created by Ivan on 14/12/16.
+//  Copyright (c) 2014年 one. All rights reserved.
+//
+
+
+#ifndef CMark_PrefixHeader_pch
+#define CMark_PrefixHeader_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "CoreData+MagicalRecord.h"
+#import "DataObject.h"
+#endif
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
